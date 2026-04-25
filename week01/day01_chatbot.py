@@ -1,5 +1,5 @@
 from openai import OpenAI
-def chat(message,api_key="sk-7855c7d45b574425b81dfae0778dfaa8"):
+def chat(message,api_key="sk-20060327"):
     client=OpenAI(
         api_key=api_key,
 base_url="https://dashscope.aliyuncs.com/compatible-mode/v1"
