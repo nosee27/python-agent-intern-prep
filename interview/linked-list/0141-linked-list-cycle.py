@@ -1,7 +1,7 @@
 """
 LeetCode 141.环形链表
 链接: https://leetcode.cn/problems/linked-list-cycle/description/
-日期: 2026-05-02
+日期: 2026-05-03
 """
 #快慢指针法
 class Solution:
