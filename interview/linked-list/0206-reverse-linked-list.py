@@ -1,7 +1,7 @@
 """
 LeetCode 206.反转列表
 链接: https://leetcode.cn/problems/reverse-linked-list/description/
-日期: 2026-05-01
+日期: 2026-05-02
 """
 #迭代法双指针
 class Solution:

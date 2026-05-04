@@ -1,7 +1,7 @@
 """
 LeetCode 021.合并两个有序列表
 链接: https://leetcode.cn/problems/merge-two-sorted-lists/
-日期: 2026-05-03
+日期: 2026-05-04
 """
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
