@@ -1,3 +1,4 @@
+#System Prompt 设定AI的身份和风格
 from openai import OpenAI
 def chat(message,system=None,api_key="123"):
     client=OpenAI(

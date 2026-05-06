@@ -24,5 +24,5 @@ if __name__=="__main__":
     question="13+17+2=?"
     print("===直接回答===")
     print(chat(question,system="只回复答案"))
-    #print("\n===CoT思维链==")
-   # print(chat(question,use_cot=True))
+    print("\n===CoT思维链==")
+    print(chat(question,use_cot=True))
