@@ -40,6 +40,7 @@ history=[
 print("====记忆====")
 result=chain_with_memory.invoke({
     "history":history,
-    "input":"我爸爸叫什么名字？" 
+    "input":"我叫什么名字?" 
 })
 print(result)
+print(history)

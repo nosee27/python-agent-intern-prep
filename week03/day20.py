@@ -13,7 +13,7 @@ dq.popleft()
 dq.pop()
 print(dq)
 #defaultdict 自动创建默认值
-graph=defaultdict(list)
+graph=defaultdict(list) #做邻接表，不用判断 key 是否存在
 graph['A'].append('B')
 graph['A'].append('C')
 graph['A'].append('4')

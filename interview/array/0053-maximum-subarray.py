@@ -3,7 +3,8 @@ LeetCode 053. 最大子数组合
 链接: https://leetcode.cn/problems/maximum-subarray/description/
 日期: 2026-05-12
 """
-#动态规划
+#kadane 算法
+from typing import List
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         current=max_sum=nums[0]
