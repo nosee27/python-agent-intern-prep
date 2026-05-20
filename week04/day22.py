@@ -50,8 +50,7 @@ tools=[
 #工具映射
 tool_map={
     "get_weather":get_weather,
-    "calculate":calculate,
-    "get_sex":get_sex
+    "calculate":calculate
 }
 def agent_chat(user_input):
     messages = [
